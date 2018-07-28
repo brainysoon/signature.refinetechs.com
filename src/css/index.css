@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.signature-container {
+    display: flex;
+    align-items: center;
+}
+
+.signature-form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.signature-preview-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.signature-form-item-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.signature-form-item-label {
+    
+}
+
+.signature-form-item {
+    
+}
