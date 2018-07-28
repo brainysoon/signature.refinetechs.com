@@ -6,8 +6,10 @@ window.onload = () => {
         const signaturePreview = document.getElementById('signature-preview')
         const signatureSelectRange = document.createRange();
         signatureSelectRange.selectNode(signaturePreview);
+        window.getSelection().empty();  
         window.getSelection().addRange(signatureSelectRange);
         document.execCommand('copy');
+        window.alert('The email signature is copied to clipborad!')
     });
 
     const createFormItemChangeListener = (signatureId) => {
