@@ -1,0 +1,8 @@
+# ignore the idea config files
+.idea/
+
+# ignore gradle config files
+.gradle/
+
+# ignore build files
+build/
